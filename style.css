@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "tahuregular";
+  src: url("fonts/tahu-webfont.woff2") format("woff2"),
+    url("fonts/tahu-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+p {
+  color: red;
+  font-size: 50px; /* On peux mettre un commentaires pour les infos non visible au utilisateur */
+  font-family: "tahuregular";
+  
+}
+h1 {
+  color: blue;
+  font-weight: lighter;
+}
+h2 {
+  color: green;
+}
+a {
+  color: yellow;
+}
+.nomdonner {
+  color: aquamarine;
+}
+#intro {
+  color: black;
+}
+body {
+  background-image: url(image/cats.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+}
